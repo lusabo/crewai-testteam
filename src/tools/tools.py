@@ -1,11 +1,8 @@
 from crewai_tools import GithubSearchTool
 from config import EnvConfig
 
-class Tools:
+class Tools():
 
-    def __init__(self):
-        pass
-    
     def github_tool(self):
         return GithubSearchTool(
             github_repo=EnvConfig().get_github_repo(),
