@@ -12,7 +12,8 @@ class Tools():
                 "llm": {
                     "provider": "ollama",
                     "config": {
-                        "model": "llama3"
+                        "model": "llama3",
+                        "temperature": 0.2,
                     },
                 },
                 "embedder": {
